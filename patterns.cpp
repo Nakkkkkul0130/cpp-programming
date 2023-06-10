@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-                        // pattern 1
+    // pattern 1
     /*
      * * * *
      * * * *
@@ -11,7 +11,7 @@ int main()
      * * * *
      */
 
-                        //code for pattern 1
+    // code for pattern 1
 
     for (int i = 1; i <= 5; i++)
     {
@@ -22,7 +22,7 @@ int main()
         cout << endl;
     }
 
-                         // pattern 2
+    // pattern 2
     /*
      * * * *
      *     *
@@ -30,7 +30,7 @@ int main()
      *     *
      * * * *
      */
-                          // code for pattern 2
+    // code for pattern 2
     for (int i = 1; i <= 5; i++)
     {
         for (int j = 1; j <= 4; j++)
@@ -47,7 +47,7 @@ int main()
         cout << endl;
     }
 
-                         // pattern 3
+    // pattern 3
     /*
      * * * * *
      * * * *
@@ -55,7 +55,7 @@ int main()
      * *
      *
      */
-                         // code for pattern 3
+    // code for pattern 3
     for (int i = 5; i >= 1; i--)
     {
         for (int j = 1; j <= i; j++)
@@ -65,7 +65,7 @@ int main()
         cout << endl;
     }
 
-                          // pattern 4
+    // pattern 4
     /*
      *
      * *
@@ -73,7 +73,7 @@ int main()
      * * * *
      * * * * *
      */
-                          // code for pattern 4
+    // code for pattern 4
 
     for (int i = 1; i <= 5; i++)
     {
@@ -91,7 +91,7 @@ int main()
         cout << endl;
     }
 
-                             // pattern 5
+    // pattern 5
     /*
       1
       2 2
@@ -99,7 +99,7 @@ int main()
       4 4 4 4
       5 5 5 5 5
     */
-                            // code for pattern 5
+    // code for pattern 5
     for (int i = 1; i <= 5; i++)
     {
         for (int j = 1; j <= i; j++)
@@ -109,7 +109,7 @@ int main()
         cout << endl;
     }
 
-                            // pattern 6
+    // pattern 6
     /*
        1
        2  3
@@ -117,7 +117,7 @@ int main()
        7  8  9  10
        11 12 13 14 15
     */
-                            // code for pattern 6
+    // code for pattern 6
     int count = 1;
     for (int i = 1; i <= 5; i++)
     {
@@ -129,7 +129,7 @@ int main()
         cout << endl;
     }
 
-                            // pattern 7
+    // pattern 7
     /*
      *             *
      * *         * *
@@ -137,7 +137,7 @@ int main()
      * * * * * * * *
      */
 
-                            // code for pattern 7
+    // code for pattern 7
     for (int i = 1; i <= 4; i++)
     {
         for (int j = 1; j <= i; j++)
