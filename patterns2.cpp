@@ -128,12 +128,35 @@ int main()
       4 4 4 4
       5 5 5 5 5
   */
-    for (int i=1;i<=5;i++)
-    {
+    // code for pattern 6
+
+    // for (int i=1;i<=5;i++)
+    // {
+    //   for (int j=1;j<=i;j++)
+    //   {
+    //     cout<<i<<" ";
+    //   }
+    //   cout<<endl;
+    // }
+
+    // patterns 7
+
+    /*
+        1 1 1 1 1
+        2 2 2 2
+        3 3 3 
+        4 4
+        5
+    */
+
+   // code for pattern 7
+
+   for (int i=5;i>=1;i--)
+   {
       for (int j=1;j<=i;j++)
       {
-        cout<<i<<" ";
+        cout<<(5-i+1)<<" ";
       }
       cout<<endl;
-    }
+   }
 }
