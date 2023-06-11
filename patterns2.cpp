@@ -100,23 +100,40 @@ int main()
     */
      // code for pattern 5
 
-  for (int i=1;i<=5;i++)
-  {
-    int j;
-    for (j=1;j<=5-i;j++)
+  // for (int i=1;i<=5;i++)
+  // {
+  //   int j;
+  //   for (j=1;j<=5-i;j++)
+  //   {
+  //       cout<<" ";
+  //   }
+  //   int k = i;
+  //   for (;j<=5;j++)
+  //   {
+  //       cout<<k--<<endl;
+  //   }
+  //   k = 2;
+  //   for (;5+i-1;j++)
+  //   {
+  //       cout<<k++<<endl;
+  //   }
+  //   cout<<endl;
+  // }
+
+  // pattern 6
+  /*
+      1
+      2 2
+      3 3 3
+      4 4 4 4
+      5 5 5 5 5
+  */
+    for (int i=1;i<=5;i++)
     {
-        cout<<" ";
+      for (int j=1;j<=i;j++)
+      {
+        cout<<i<<" ";
+      }
+      cout<<endl;
     }
-    int k = i;
-    for (;j<=5;j++)
-    {
-        cout<<k--<<endl;
-    }
-    k = 2;
-    for (;5+i-1;j++)
-    {
-        cout<<k++<<endl;
-    }
-    cout<<endl;
-  }
 }
