@@ -67,15 +67,33 @@ int main()
         E
     */
    // code for pattern 4
-    char ch = 'A';
+    // char ch = 'A';
+    // for (int i=5;i>=1;i--)
+    // {
+    //     for (int j=1;j<=i;j++)
+    //     {
+    //         cout<<ch<<" ";
+    //     }
+    //     ch++;
+    //     cout<<endl;
+    // }
+
+    // pattern 5
+    /*
+        E D C B A
+        E D C B
+        E D C
+        E D
+        E
+    */
+
     for (int i=5;i>=1;i--)
     {
+        char ch = 'E';
         for (int j=1;j<=i;j++)
         {
-            cout<<ch<<" ";
+            cout<<ch--<<" ";
         }
-        ch++;
         cout<<endl;
-
     }
 }
