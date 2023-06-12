@@ -20,4 +20,42 @@ int main()
         ch++;
         cout<<endl;
    }
+
+    // pattern 2
+    /*
+        a
+        a b
+        a b c
+        a b c d
+        a b c d e
+    */ 
+
+   for (int i=1;i<=5;i++)
+   {
+        char ch = 'a';
+        for (int j=1;j<=i;j++)
+        {
+            cout<<ch++<<" ";
+        }
+        cout<<endl;
+   }
+
+   // pattern 3
+   /*
+        a
+        b c 
+        d e f
+        g h i j 
+        k l m n o
+   */
+  // code for pattern 3
+    char ch = 'a';
+    for (int i=1;i<=5;i++)
+    {
+        for (int j=1;j<=i;j++)
+        {
+            cout<<ch++<<" ";
+        }
+        cout<<endl;
+    }
 }
