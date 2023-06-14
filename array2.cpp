@@ -21,7 +21,7 @@ int main()
     }
     cout<<"sum is: "<<sum<<endl;
 
-    //--------finding largest elements in array for number greater than 0-------
+    //--------finding largest elements in array-------
 
     int x;
     cout << "enter the value of x: ";
@@ -33,7 +33,7 @@ int main()
         cin >> arr[i];
     }
 
-    int largest = 0;
+    int largest = INT16_MIN;
     for (int i = 0; i < x; i++)
     {
         if (arr[i] > largest)
@@ -42,6 +42,27 @@ int main()
         }
     }
     cout << "largest number is: " << largest << endl;
+
+    //--------finding smallest number in array elements---------
+    int x;
+    cout << "enter the value of x: ";
+    cin >> x;
+    int arr[x];
+    for (int i = 0; i < x; i++)
+    {
+        cout << "enter the " << i << " th value: ";
+        cin >> arr[i];
+    }
+    int smallest = INT16_MAX;
+    for (int i=0;i<x;i++)
+    {
+        if (arr[i] < smallest)
+        {
+            smallest = arr[i];
+        }
+    }
+    cout<<"smallest number is: "<<smallest<<endl;
+
 
     return 0;
 }
