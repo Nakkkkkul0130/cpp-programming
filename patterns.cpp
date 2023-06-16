@@ -99,7 +99,7 @@ int main()
       4 4 4 4
       5 5 5 5 5
     */
-    code for pattern 5
+    //code for pattern 5
     for (int i = 1; i <= 5; i++)
     {
         for (int j = 1; j <= i; j++)
@@ -117,7 +117,7 @@ int main()
        7  8  9  10
        11 12 13 14 15
     */
-    code for pattern 6
+    //code for pattern 6
     int count = 1;
     for (int i = 1; i <= 5; i++)
     {
@@ -229,6 +229,35 @@ int main()
         for (int j=1;j<=8;j++)
         {
             if (i==8 || j==1)
+            {
+                cout<<"* ";
+            }
+            else
+            {
+                cout<<"  ";
+            }
+        }
+        cout<<endl;
+    }
+
+    // pattern 11
+    /*
+        * * * * * * * *
+                    *
+                  *
+                *
+              *
+            *
+          *
+        * * * * * * * *
+        
+    */
+   // code for pattern 11
+    for (int i=1;i<=8;i++)
+    {
+        for (int j=1;j<=8;j++)
+        {
+            if (i==1 || i==8 || j==9-i)
             {
                 cout<<"* ";
             }
