@@ -81,15 +81,31 @@ int main()
     // return 0;
 
     //----------swapping of 2 numbers by second method-----------
-    
-    int a, b;
-    cout<<"before swapping: "<<endl;
-    cout<<"a = ";
-    cin>>a;
-    cout<<"b = ";
-    cin>>b;
-    swap(a,b);
-    cout<<"after swapping: "<<endl;
-    cout<<"a = "<<a<<endl;
-    cout<<"b = "<<b;    
+
+    // int a, b;
+    // cout<<"before swapping: "<<endl;
+    // cout<<"a = ";
+    // cin>>a;
+    // cout<<"b = ";
+    // cin>>b;
+    // swap(a,b);
+    // cout<<"after swapping: "<<endl;
+    // cout<<"a = "<<a<<endl;
+    // cout<<"b = "<<b;
+
+    //----------reverse of an array-------------
+    int n;
+    cout<<"enter number of elements: ";
+    cin>>n;
+    int arr[n];
+    for (int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    cout<<endl;
+    for (int i=n-1;i>=0;i--)
+    {
+        cout<<arr[i]<<endl;;
+    }
+
 }
