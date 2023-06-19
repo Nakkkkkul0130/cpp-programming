@@ -24,6 +24,7 @@ int main()
     cout<<"x - y is  "<<x - y<<endl;
     cout<<"x * y is  "<<x * y<<endl;
     cout<<"x / y is  "<<(float) x / y<<endl;
+    cout<<"x // y is "<<x ^ y<<endl; 
 
     return 0;
 }
