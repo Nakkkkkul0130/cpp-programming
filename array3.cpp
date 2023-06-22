@@ -24,11 +24,16 @@ int main()
     // cout<<"your name is: "<<name<<endl;
     // cout << length(name);  // length of name
 
-    //----------cin.getline function------------
-    char input[50];
-    cout<<"enter the input: ";
-    cin.getline(input,50);   // this function takes 3 paramaters, 3rd one is optional
+    //-----------------------------cin.getline function---------------------
+
+    char input[10];
+    cout<<"enter the input: ";  // hello world
+    cin.getline(input,10);   // this function takes 3 paramaters, 3rd one is optional
     cout<<input;
+    // output = hello world
+    cin.getline(input,4);
+    cout<<input;
+    // output = hel
 
     return 0;
 }
