@@ -424,4 +424,32 @@ int main()
         }
         cout<<endl;
    }
+   // pattern 18
+   /*
+        *
+        * *
+        *   * 
+        *     *
+        * * * * *
+        *     *
+        *   *
+        * *
+        * 
+   */
+  // code for pattern 18
+  for (int i=1;i<=9;i++)
+  {
+        for (int j=1;j<=5;j++)
+        {
+            if (j==1 || i==5 || j==i || j==10-i)
+            {
+                cout<<"* ";
+            }
+            else
+            {
+                cout<<"  ";
+            }
+        }
+        cout<<endl;
+  }
 }
