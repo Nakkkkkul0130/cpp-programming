@@ -452,4 +452,28 @@ int main()
         }
         cout<<endl;
   }
+  // pattern 19
+  /*
+     * * * * * * * * *
+       *     *     *
+         *   *   *
+           * * *
+             *
+  */
+  // code for pattern 19
+  for (int i=1;i<=5;i++)
+  {
+    for (int j=1;j<=9;j++)
+    {
+        if (i==1 || j==5 || j==i || j==10-i)
+        {
+            cout<<"* ";
+        }
+        else
+        {
+            cout<<"  ";
+        }
+    }
+    cout<<endl;
+  }
 }
