@@ -251,4 +251,32 @@ int main()
       }
       cout << endl;
     }
+    // pattern 12
+    /*
+      * * * * *
+      * * * *
+      * * *
+      * *
+      * 
+      * *
+      * * *
+      * * * *
+      * * * * *
+    */
+   //code for pattern 12
+   for (int i=1;i<=9;i++)
+   {
+      for (int j=1;j<=5;j++)
+      {
+        if (j<=6-i || j<=i-4)
+        {
+          cout<<"* ";
+        }
+        else
+        {
+          cout<<"  ";
+        }
+      }
+      cout<<endl;
+   }
 }
