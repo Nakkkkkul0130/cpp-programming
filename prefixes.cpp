@@ -16,7 +16,9 @@ void printallprefixes(char str[])
 
 int main()
 {
-    char str[] = "abcd";
+    char str[100];
+    cout<<"enter your string: ";
+    cin>>str;
     printallprefixes(str);
     return 0;
 }
