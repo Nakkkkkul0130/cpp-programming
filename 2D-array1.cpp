@@ -15,7 +15,10 @@ void printarray(int arr[][3],int m,int n)
 
 int main()
 {
-    int arr[][3] = { {2,4,6} , {6,8,10} , {3,5,7} };
+    int arr[][3]={{2,4,6},
+                  {6,8,9},
+                  {3,5,7}
+                  };
     printarray(arr,3,3);
     return 0;
 }
