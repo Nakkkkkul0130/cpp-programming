@@ -15,8 +15,8 @@ void printarray(int arr[][3],int m,int n)
 
 int main()
 {
-    int arr[][3]={{2,4,6},
-                  {6,8,9},
+    int arr[][3]={{3,5,6},
+                  {0,1,9},
                   {3,5,7}
                   };
     printarray(arr,3,3);
