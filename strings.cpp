@@ -27,6 +27,10 @@ int main()
         cout<<v[i]<<endl;
     }
 
+    string s4;
+    getline(cin, s4);   // taking input in string
+    cout<<s4<<endl;
+
     string s5 = s + s2;      // addition of two strings
     cout<<s5<<endl;
     return 0;
