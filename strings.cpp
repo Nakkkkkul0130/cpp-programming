@@ -33,5 +33,6 @@ int main()
 
     string s5 = s + s2;      // addition of two strings
     cout<<s5<<endl;
+    cout<<s5.size()<<endl;   // size of s5
     return 0;
 }
