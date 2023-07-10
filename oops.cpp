@@ -3,13 +3,10 @@ using namespace std;
 
 class student {
 
-    public:           // used public here because we can access all the properties of a class anywhere rather than in class only
-        int roll_no;
-
-    private:
         int age;
 
-    public:
+    public:         // used public here because we can access all the properties of a class anywhere rather than in class only
+        int roll_no;
         void display()
         {
             cout<<age;
