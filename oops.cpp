@@ -6,6 +6,15 @@ class student {
         int age;
 
     public:         // used public here because we can access all the properties of a class anywhere rather than in class only
+
+        // default constructor
+        
+           student ()
+           {
+                cout<<"constructor called: "<<endl;
+           }
+        
+    
         int roll_no;
         void display()
         {
@@ -30,6 +39,7 @@ int main()
 {
     // creating object 
     student s1, s2, s3, s4;
+    s1.display();
     s1.roll_no = 07;
     // s1.age = 19;
 
