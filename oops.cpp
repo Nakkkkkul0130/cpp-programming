@@ -40,7 +40,7 @@ int main()
     // creating object 
     student s1, s2, s3, s4;
     s1.display();
-    s1.roll_no = 07;
+    s1.roll_no = 08;
     // s1.age = 19;
 
     //cout<<s1.age<<endl;
