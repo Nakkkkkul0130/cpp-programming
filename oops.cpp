@@ -49,9 +49,19 @@ public: // used public here because we can access all the properties of a class 
 
 int main()
 {
-     // use this for "this" keyword
+    student s1(45,56);
+    cout<<"s1: ";
+    s1.display();
+
+    student s2(s1);           // copy constructor
+    cout<<"s2: ";
+    s2.display();
+
+    // use this for "this" keyword
+    /* 
     student s1(30,90);
-    cout<<"address of s1: "<<&s1<<endl;   // that "this" keyword and address of s1 is same 
+    cout<<"address of s1: "<<&s1<<endl;   // that "this" keyword and address of s1 is same
+    */ 
     
 
     // used this for constructor 
