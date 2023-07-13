@@ -22,6 +22,7 @@ public: // used public here because we can access all the properties of a class 
 
     student(int a, int r)
     {
+        cout<<"this "<<this<<endl;
         cout << "constructor 3 called: " << endl;
         age = a;
         roll_no = r;
@@ -48,6 +49,14 @@ public: // used public here because we can access all the properties of a class 
 
 int main()
 {
+     // use this for "this" keyword
+    student s1(30,90);
+    cout<<"address of s1: "<<&s1<<endl;   // that "this" keyword and address of s1 is same 
+    
+
+    // used this for constructor 
+    /*
+
     // creating object
     student s1;
     s1.display(); // constructor 1 called
@@ -66,4 +75,6 @@ int main()
 
     student s4(50, 100);
     s4.display(); // constructor 3 called
+
+    */
 }
