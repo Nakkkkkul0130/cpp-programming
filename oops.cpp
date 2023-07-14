@@ -49,7 +49,7 @@ public: // used public here because we can access all the properties of a class 
 
 int main()
 {
-    student s1(45,56);
+    student s1(45,50);
     cout<<"s1: ";
     s1.display();
 
