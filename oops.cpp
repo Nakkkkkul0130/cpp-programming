@@ -28,6 +28,7 @@ public: // used public here because we can access all the properties of a class 
         roll_no = r;
     }
 
+
     int roll_no;
     void display()
     {
@@ -44,6 +45,11 @@ public: // used public here because we can access all the properties of a class 
             return;
         }
         age = a;
+    }
+
+    ~student ()
+    {
+        cout<<"destructor called: "<<endl;
     }
 };
 
