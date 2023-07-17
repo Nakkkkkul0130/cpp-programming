@@ -52,7 +52,7 @@ class fraction{
 int main()
 {
     fraction f1(14,7);
-    fraction f2(10,5);
+    fraction f2(15,5);
     f1.add(f2);
     f1.print();
     f2.print();
