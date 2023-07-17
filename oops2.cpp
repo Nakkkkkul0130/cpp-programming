@@ -16,7 +16,8 @@ class fraction{
         {
             cout<<numerator<<"/"<<denominator<<endl;;
         }
-        void add(fraction f2){
+        void add(fraction const &f2)   // we use const and refernce variable for not apply copy constructor here because copy constrcutor is time consuming here
+        {
             int lcm = this->denominator * f2.denominator;    // using "this" is optional because simple denominator represent f1
             int x = lcm/denominator;
             int y = lcm/f2.denominator;
@@ -27,6 +28,13 @@ class fraction{
             this->numerator = num;
             this->denominator = lcm;
 
+            simplify();
+        }
+
+        void multiply(fraction const &f2)
+        {
+            numerator = numerator * f2.numerator;
+            denominator = denominator * f2.denominator;
             simplify();
         }
         void simplify()
@@ -51,9 +59,13 @@ class fraction{
 
 int main()
 {
-    fraction f1(14,7);
-    fraction f2(15,5);
+    fraction f1(10,2);
+    fraction f2(15,4);
     f1.add(f2);
+    f1.print();
+    f2.print();
+
+    f1.multiply(f2);
     f1.print();
     f2.print();
     return 0;
