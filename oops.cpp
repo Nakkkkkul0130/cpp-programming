@@ -63,6 +63,10 @@ int main()
     cout<<"s2: ";
     s2.display();
 
+    //s1 = s2;  // copy assignment operator is called
+
+    //student s1 = s2;  // copy constructor called
+
     // use this for "this" keyword
     /* 
     student s1(30,90);
