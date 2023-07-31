@@ -18,7 +18,7 @@ class student
 };
 int main()
 {
-    char name[100] = "abcd";
+    char name[] = "abcd";
     student s1(23, name);
     s1.display();
 
