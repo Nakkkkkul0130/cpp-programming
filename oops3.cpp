@@ -9,7 +9,7 @@ class student
     public:
         student(int age, char *name){
             this->age = age;
-            this->name = name;
+            this->name = name;           // shallow copy
         }
         void display()
         {
