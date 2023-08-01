@@ -29,3 +29,13 @@ int main()
     cout<<student::totalstudent;         // syntax to use static member
     // s1.rollnumber = 27;
 }
+
+// ------------operator overloading------------
+/*
+
+f1 = f2+f3 // this is incoorect
+int c=a+b  //correct
+but we want that f1=f2+f3 will work so we extend the property of "+" operator
+this is called opeartor overloading 
+  
+*/
